@@ -27,12 +27,14 @@
         </footer>
         <script>
             //current year
-            var y = new Date(year);
-            document.getElementById("currentyear").textcontent = y;
+            var n = new Date();
+            var y = n.getFullYear();
+            document.getElementById("currentyear").textContent = y ;
 
             //modified date
-            const = options {month="numeric", day="numeric", year="numeric"}
-            var d = 
+            var options = { month: "numeric", day: "numeric", year: "numeric", time: "long"};
+            var d = new Date().toLocaleDateString(options);
+            document.getElementById("modified").textContent = d ;
         </script>
     </body>
 </html>
