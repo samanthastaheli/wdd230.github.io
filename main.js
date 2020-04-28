@@ -1,9 +1,9 @@
 //current year
-var n = new Date();
-var y = n.getFullYear();
-document.getElementById("currentyear").textContent = y ;
+            var n = new Date();
+            var y = n.getFullYear();
+            document.getElementById("currentyear").textContent = y ;
 
-//modified date
-var options = { month: "numeric", day: "numeric", year: "numeric", time: "long"};
-var d = new Date().toLocaleDateString(options);
-document.getElementById("modified").textContent = d ;
+            //modified date
+            var options = { month: "numeric", day: "numeric", year: "numeric"};
+            var d = new Date().toLocaleDateString(options);
+            document.getElementById("modified").textContent = d ;
