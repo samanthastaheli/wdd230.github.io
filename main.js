@@ -6,5 +6,5 @@
             //modified date
             
             var options = { month: "numeric", day: "numeric", year: "numeric", time: "numeric"};
-            var d = new Date().toLocaleDateString(options);
+            var d = new Date().toLocaleDateString("en-US", options);
             document.getElementById("modified").textContent = d ;
