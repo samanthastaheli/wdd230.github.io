@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans&family=Quicksand:wght@700&display=swap');
+
 body {
     font-size: 18px;
-    font: "Open Sans", sans-serif; 
+    font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
     margin: 1.25rem auto;
     max-width: 760px;
@@ -31,4 +33,8 @@ img {
 
 #byuilink {
     color: white;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
 }
