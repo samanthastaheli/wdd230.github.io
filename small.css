@@ -21,6 +21,7 @@ header, footer {
     background-color: #3c1f41;
     color: white;
     text-align: center;
+    border-radius: 10px;
 }
 
 main {
