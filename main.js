@@ -1,10 +1,13 @@
 //current year
             var n = new Date();
             var y = n.getFullYear();
-            document.getElementById("currentyear").textContent = y ;
+            document.getElementById("currentyear").innerHTML = y ;
 
             //modified date
+
+            var date = document.lastModified;
+            document.getElementById("modified").textContent = date;
             
-            var options = { month: "numeric", day: "numeric", year: "numeric", time: "numeric"};
-            var d = new Date().toLocaleDateString("en-US", options);
-            document.getElementById("modified").textContent = d ;
+            // var options = { month: "numeric", day: "numeric", year: "numeric", hour: "numeric", minute: "numeric"};
+            // var d = document.lastModified().toLocaleDateString("en-US", options);
+            // document.getElementById("modified").textContent = d ;
