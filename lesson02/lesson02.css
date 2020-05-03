@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans&family=Quicksand:wght@700&display=swap');
+
+body {
+    margin: 100px;
+    margin-top: 0px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+ main {
+     margin-top: 80px;
+     display: grid;
+     grid-template-columns: auto auto auto;
+     grid-template-rows: auto auto auto auto auto;
+     grid-gap: 50px;
+ }
+ 
+
+img {
+    padding-top: 30px;
+    width: 380px;
+}
+
+ h3 {
+    background-color: #3c1f41;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 24px;
+ }
+
+ h4, .websitelink, p {
+     padding-left: 15px;
+ }
+
+
+
+header, footer {
+    background-color: #3c1f41;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+
+header {
+    padding: .5rem;
+}
+
+
+#byuilink {
+    color: white;
+}
+
+h1 {
+    font-size: 36px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#homepagelink {
+    color: white;
+}
