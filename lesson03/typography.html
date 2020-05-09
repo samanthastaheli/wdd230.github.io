@@ -3,30 +3,38 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Lesson 03 - Weather App">
-        <title>Samantha Staheli Lesson 03 - Weather App</title>
+        <meta name="description" content="Lesson 03 - Weather App - Typography">
+        <title>Samantha Staheli Lesson 03 - Weather App - Typography</title>
         <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-        <nav>
-            <ul>
-                <li><a href="target-audience.html">Audience</a></li>
-                <li><a href="color-scheme.html">Color Scheme</a></li>
-                <li><a href="typography.html">Typography</a></li>
-            </ul>
-        </nav>
+        <header>
+            <h1>Website Planning Document for Weather App</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="target-audience.html">Audience</a></li>
+                    <li><a href="color-scheme.html">Color Scheme</a></li>
+                    <li><a href="typography.html">Typography</a></li>
+                </ul>
+            </nav>
+        </header>
         <main>
             <h1>Typography</h1>
 
                 <h2>Title/Header Font:</h2>
-                <h3>Playfair Display</h3>
-                <p>This color will apply to the body and background of the page.</p>
+                <h3 id="playfair-display">Playfair Display Semi-Bold</h3>
+                <p>This font will be ablied to the titles and headers on the page.</p>
 
                 <h2>Body/Paragraph Font:</h2>
-                <h3>Lato</h3>
-                <p>This color will</p>
-
+                <h3 id="lato">Lato Regular</h3>
+                <p>This font will be applied to the body/paragraphs on the page.</p>
         </main>
+        <footer>
+            <p>&copy; <span id="currentyear"></span> | Samantha Staheli | Washington | <a id ="byuilink" href="https://www.byui.edu/online" target="_blank">BYU-I Online Learning</a></p>
+            <p>Last Updated: <span id="modified"></span></p>
+        </footer>
+        <script src="main.js"></script>
     </body>
 </html>

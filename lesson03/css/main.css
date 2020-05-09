@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans&family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@600&display=swap');
+
+@media only screen and (min-width: 450px) {
+
+header, footer {
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+}
+
+
+@media only screen and (min-width: 300px) {
+
+    body {
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 1.5;
+        margin: 1.25rem auto;
+        max-width: 850px;
+    }
+    
+main {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+ /*nav menu*/
+
+ nav ul {
+     display: flex;
+     justify-content: space-around;
+     padding: 10px;
+     list-style: none;
+ }
+
+li a {
+     color: white;
+     text-decoration: none;
+ }
+
+ a:hover {
+    background-color: white;
+    color: #3c1f41;
+    padding: 10px;
+ }
+ 
+    h1 {
+        font-size: 2rem;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    
+    h2 {
+        font-size: 24px;
+        font-family: 'Josefin Sans', sans-serif;
+        padding-top: 20px;
+    }
+    
+    header, footer {
+        background-color: #3c1f41;
+        color: white;
+        text-align: center;
+    }
+    
+    main {
+        margin: 10px;
+    }
+    
+    header {
+        padding: .5rem;
+    }
+    
+    .logo {
+        height: 200px;
+        margin: 10px;
+    }
+    
+    img {
+        height: 300px;
+    }
+    
+    #byuilink {
+        color: white;
+    }
+        
+    /*colors*/
+    
+    #primary-color {
+        background-color: #2E387B;
+        color: white;
+        margin: 0px;
+        padding: 10px;
+    }
+    
+    #secondary-color {
+        background-color: #F4D643;
+        color: white;
+        margin: 0px;
+        padding: 10px;
+    }
+    
+    #accent-one-color {
+        background-color: #577A3C;
+        color: white;
+        margin: 0px;
+        padding: 10px;
+    }
+    
+    #accent-two-color {
+        background-color: #EAF0F9;
+        margin: 0px;
+        padding: 10px;
+    }
+
+/*typograpghy*/
+
+#playfair-display {
+    font-family: 'Playfair Display', serif;
+}
+
+#lato {
+    font-family: 'Lato', sans-serif;
+}
+
+}
