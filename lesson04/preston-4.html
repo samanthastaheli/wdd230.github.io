@@ -10,11 +10,13 @@
     </head>
     <body>
         <header>
+            <img id="icon" src="img/world-icon-diamond.svg" alt="world of weather icon diamond">
             <h1>World of Weather</h1>
-            <div>Start your day off right</div>
+            <div id="moto">Start your day off right</div>
         </header>
         <nav>
-            <ul>
+            <ul class="navigation">
+                <li><a id="ham" href="#" onclick="toggleMenu()">&#9776 Menu</a></li>
                 <li><a href="#">Home</a></li>
                 <li><a href="preston-4.html">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
@@ -31,8 +33,9 @@
             <div class="contentbox">Contact Info</div>
         </main>
         <footer>
-            <p>&copy; World of Weather | Attributions | Samantha Staheli</p>
+            <p id="footwords">&copy; World of Weather | Attributions | Samantha Staheli</p>
             <p><span id="currentdate"></span></p>
         </footer>
+        <script src="js/preston.js"></script>
     </body>
 </html>
