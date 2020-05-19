@@ -1,41 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@600&display=swap');
 
-
-@media only screen and (min-width: 32em) {
-
-h1 {
-    font-size: 40px;
-}
-
-#moto {
-    font-size: 18px;
-}
-
-#icon {
-    height: 200px;
-}
-
-.navigation {
-    display: flex;
-}
-
-li {
-    display: block;
-    flex: 1 1 auto;
-}
-
-li:first-child {
-    display: none;
-}
-
-.responsive li {
-    display: none;
-}
-
-}    
-
-@media only screen and (min-width: 18.75em) {
-
 body {
     font-size: 16px;
     font-family: 'Lato', sans-serif;
@@ -44,14 +8,13 @@ body {
     max-width: 850px;
 }
 
-
-
 /* header */ 
 
 #icon {
     height: 150px;
     padding: 15px;
     float: left;
+    padding-left: 200px;
 }
 
 header {
@@ -62,13 +25,12 @@ header {
 h1 {
     font-size: 32px;
     padding-top: 50px;
-    padding-left: 180px;
+    padding-left: 0px;
     margin-bottom: 0px;
 }
 
 #moto {
     font-size: 16px;
-    /* padding-left: 185px; */
 }
 
 footer {
@@ -154,4 +116,39 @@ footer {
     padding-top: 0px;
 } */
 
+
+@media only screen and (min-width: 50em) {
+
+h1 {
+    font-size: 40px;
 }
+
+#moto {
+    font-size: 18px;
+}
+
+#icon {
+    height: 200px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+
+li {
+    display: block;
+    flex: 1 1 auto;
+}
+
+li:first-child {
+    display: none;
+}
+
+.responsive li {
+    display: none;
+}
+
+}    
+
