@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans&family=Quicksand:wght@700&display=swap');
+
+body {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    margin: 1.25rem auto;
+    max-width: 850px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 24px;
+    padding-top: 50px;
+}
+
+
+#smallbox {
+    height: 15px;
+    padding: 15px;
+}
+#mediumbox {
+    height: 50px;
+    padding: 15px;
+}
+#bigbox {
+    height: 100px;
+    padding: 15px;
+}
+
+#boxcaption {
+    display: flex;
+    flex-direction: row;
+}
+
+.boxcap {
+    padding-right: 35px
+}
+
+p {
+    background-color: blue;
+}
+
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    content: "blue";
+}
