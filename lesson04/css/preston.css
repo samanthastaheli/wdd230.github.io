@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@600&display=swap');
 
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 32em) {
 
 h1 {
     font-size: 40px;
@@ -34,14 +34,14 @@ li:first-child {
 
 }    
 
-@media only screen and (min-width: 300px) {
+@media only screen and (min-width: 18.75em) {
 
 body {
     font-size: 16px;
     font-family: 'Lato', sans-serif;
     line-height: 1.5;
     margin: 1.25rem auto;
-    max-width: 100%;
+    max-width: 850px;
 }
 
 
@@ -71,7 +71,11 @@ h1 {
     /* padding-left: 185px; */
 }
 
-
+footer {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
 
 /* nav menu */
