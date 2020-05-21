@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@600&display=swap');
+
+#body {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    margin: 1.25rem auto;
+    max-width: 850px;
+}
+
+#backimage {
+    background-image: url("mountain.jpg");
+    height: 2000px;
+    background-position: center;
+    background-repeat: no-repeat;
+  background-size: cover;
+    position: relative;
+}
+
+/* header */ 
+
+#icon {
+    height: 150px;
+    padding: 15px;
+    float: left;
+    padding-left: 200px;
+}
+
+header {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+h1 {
+    font-size: 32px;
+    padding-top: 50px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+#moto {
+    font-size: 16px;
+}
+
+footer {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* nav menu */
+
+.navigation {
+    background-color: #2E387B;
+    clear: left;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+}
+
+li {
+    display: none;
+}
+
+li a {
+    display: block;
+	padding: 15px;
+	text-align: left;
+	text-decoration: none;
+	color:#EAF0F9;
+	/* font-weight: 700; */
+}
+
+li a:hover {
+    color: black;
+    background-color: #EAF0F9;
+}
+
+li:first-child {
+    display: block;
+}
+
+.responsive li {
+    display: block;
+}
+
+/* main */
+
+h2 {
+    text-align: center;
+    padding: 15px;
+    font-size: 32px;
+}
+
+.contentbox {
+    border: 1px dashed #577A3C;
+    padding: 15px;
+    background-color: #EAF0F9;
+    margin: 10px auto;
+    font-style: italic;
+}
+
+/* table */
+
+#weathersum {
+    background-color: green;
+    opacity: 80%;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+#tablehead {
+    font-size: 24px;
+}
+
+.columnone {
+    text-align: right;
+    padding-right: 10px;
+
+}
+
+.columntwo {
+    color: yellow;
+}
+
+#fivedayforcast {
+    background-color: white;
+    margin: 50px;
+    font-size: 18px;
+    position: center;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+#tableday {
+    background-color: green;
+    color: white;
+}
+
+#forcasticon {
+    height: 50px;
+}
+
+/* footer */
+
+footer {
+    background-color: #2E387B;
+    color: #EAF0F9;
+    padding: 10px;
+    text-align: center;
+    line-height: .5;
+}
+
+/* pancake message */
+
+#friday {
+    display: none;
+    background-color: #D9B359;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 10px;
+    box-shadow: 0px 2px 2px 2px #000000;
+}
+
+/* computer size */
+
+@media only screen and (min-width: 50em) {
+
+h1 {
+    font-size: 40px;
+}
+
+#moto {
+    font-size: 18px;
+}
+
+#icon {
+    height: 200px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+
+li {
+    display: block;
+    flex: 1 1 auto;
+}
+
+li:first-child {
+    display: none;
+}
+
+.responsive li {
+    display: none;
+}
+}    
+

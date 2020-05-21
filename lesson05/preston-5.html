@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html land="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Preston Idaho Weather Site Page for Samantha Staheli in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+        <title>Preston Idaho Weather Site Page</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/preston.css">
+    </head>
+    <body>
+    <div id="backimage">
+    <div id="body">
+        <div id="friday">
+            <p>Saturday = Preston Pancakes in the Park!</p>
+            <p>9:00am Saturday at the city park.</p>
+        </div>
+        <header>
+            <img id="icon" src="img/world-icon-diamond.svg" alt="world of weather icon diamond">
+            <h1>World of Weather</h1>
+            <div id="moto">Start your day off right</div>
+        </header>
+        <nav>
+            <ul class="navigation">
+                <li><a id="ham" href="#" onclick="toggleMenu()">&#9776 Menu</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="preston-4.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Strom Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Preston Idaho</h2>
+
+            <div>
+                <table id="weathersum">
+                    <tr>
+                        <th id="tablehead">Weather Summary</th>
+                    </tr>
+                    <tr>
+                        <td class="columnone">Currently:</td>
+                        <td class="columntwo">Sunny</td>
+                    </tr>
+                    <tr>
+                        <td class="columnone">High:</td>
+                        <td class="columntwo">76'F</td>
+                    </tr>
+                    <tr>
+                        <td class="columnone">Wind Chill:</td>
+                        <td class="columntwo">2'F</td>
+                    </tr>
+                    <tr>
+                        <td class="columnone">Humidity:</td>
+                        <td class="columntwo">69%</td>
+                    </tr>
+                    <tr>
+                        <td class="columnone">Wind Speed:</td>
+                        <td class="columntwo">5 mph</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="fivedayforcast">
+                <h3>5 Day Forcast</h3>
+                <table>
+                    <tr id="tableday">
+                        <td>Wed</td>
+                        <td>Thu</td>
+                        <td>Fri</td>
+                        <td>Sat</td>
+                        <td>Sun</td>
+                    </tr>
+                    <tr>
+                        <td><img class="forcasticon" src="img/icon-sun.svg" alt="sun icon"></td>
+                        <td><img class="forcasticon" src="img/icon-rain.svg" alt="rain icon"></td>
+                        <td><img class="forcasticon" src="img/icon-sun.svg" alt="sun icon"></td>
+                        <td><img class="forcasticon" src="img/icon-sun.svg" alt="sun icon"></td>
+                        <td><img class="forcasticon" src="img/icon-sun.svg" alt="sun icon"></td>
+                    </tr>
+                    <tr>
+                        <td>75'F</td>
+                        <td>63'F</td>
+                        <td>72'F</td>
+                        <td>79'F</td>
+                        <td>76'F</td>
+                    </tr>
+                </table>
+            </div>
+        
+            <div class="contentbox">5 day forecast</div>
+            <div class="contentbox">Article</div>
+            <div class="contentbox">Contact Info</div>
+        </main>
+        <footer>
+            <p id="footwords">&copy; World of Weather | Attributions | Samantha Staheli</p>
+            <p><span id="currentdate"></span></p>
+        </footer>
+        <script src="js/preston.js"></script>
+    </div>
+    </div>
+    </body>
+</html>
