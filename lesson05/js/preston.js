@@ -14,10 +14,10 @@ var week = wnames[mydate.getDay()];
 var month = mnames[mydate.getMonth()];
 var output = week + ", " + mydate.getDate() + " " + month + " " + mydate.getFullYear();
 
+document.getElementById('currentdate').textContent = output;
 
-if (week = 'Thursday') {
+if (week = 'Sunday') {
     document.getElementById("friday").style.display = "block";
 }
 
 
-document.getElementById('currentdate').textContent = output;
