@@ -26,11 +26,14 @@
     padding-left: 200px;
 }
 
+#header-and-nav {
+    background-color: #5C7B89;
+}
+
 header {
     align-items: center;
     justify-content: center;
     text-align: center;
-    /* background-color: #395c98; */
 }
 h1 {
     font-size: 32px;
@@ -52,7 +55,7 @@ footer {
 /* nav menu */
 
 .navigation {
-    background-color: #2E387B;
+    background-color: #315162;
     clear: left;
     list-style: none;
     display: flex;
@@ -160,10 +163,7 @@ h3 {
 }
 
 #park {
-    height: 250px;
-    margin-left: 15px;
-    margin-top: 18px;
-    float: right;
+    height: 200px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -184,10 +184,13 @@ h3 {
     width: 100%;
 }
 
+#contacttable {
+
+}
 /* footer */
 
 footer {
-    background-color: #2E387B;
+    background-color: #315162;
     color: #EAF0F9;
     padding: 10px;
     text-align: center;
@@ -203,7 +206,7 @@ footer {
     padding: 10px;
     font-size: 18px;
     line-height: 10px;
-    box-shadow: 0px 2px 2px 2px #000000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* computer size */
@@ -239,6 +242,18 @@ li:first-child {
 
 .responsive li {
     display: none;
+}
+
+#park {
+    height: 250px;
+    margin-left: 15px;
+    margin-top: 18px;
+    float: right;
+}
+
+#map {
+    width: 50%;
+    display: inline;
 }
 }    
 
