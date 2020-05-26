@@ -151,7 +151,7 @@ h3 {
 }
 
 .forcasticon {
-    height: 100px;
+    height: 80px;
 }
 
 /* article */
@@ -255,5 +255,14 @@ li:first-child {
     width: 50%;
     display: inline;
 }
+
+#contact {
+    display: inline;
+}
+
+.forcasticon {
+    height: 100px;
+}
+
 }    
 
