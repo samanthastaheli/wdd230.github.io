@@ -251,15 +251,6 @@ li:first-child {
     float: right;
 }
 
-#map {
-    width: 50%;
-    display: inline;
-}
-
-#contact {
-    display: inline;
-}
-
 .forcasticon {
     height: 100px;
 }
