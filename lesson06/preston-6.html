@@ -7,6 +7,8 @@
         <title>Preston Idaho Weather Site Page</title>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/preston.css">
+        <link rel="stylesheet" href="css/preston-medium.css">
+        <link rel="stylesheet" href="css/preston-large.css">
     </head>
     <body>
     <div id="backimage">
@@ -34,7 +36,7 @@
         </nav>
         </div>
         <main>
-            <h2>Preston Idaho</h2>
+            <h2>Preston Idaho</h2> 
 
             <picture>
                 <source class="heroimg" srcset="img/hero-img-medium.png" media="(min-width: 450px) and (max-width: 799px)">
@@ -54,11 +56,11 @@
                     </tr>
                     <tr>
                         <td class="columnone">High:</td>
-                        <td class="columntwo">76'F</td>
+                        <td class="columntwo" id="temp">76'F</td>
                     </tr>
                     <tr>
                         <td class="columnone">Wind Chill:</td>
-                        <td class="columntwo">2'F</td>
+                        <td class="columntwo" id="chill"></td>
                     </tr>
                     <tr>
                         <td class="columnone">Humidity:</td>
@@ -66,7 +68,7 @@
                     </tr>
                     <tr>
                         <td class="columnone">Wind Speed:</td>
-                        <td class="columntwo">5 mph</td>
+                        <td class="columntwo" id="wind">5 mph</td>
                     </tr>
                 </table>
             </div>

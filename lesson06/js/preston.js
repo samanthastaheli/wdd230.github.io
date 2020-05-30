@@ -20,4 +20,11 @@ if (week = 'Sunday') {
     document.getElementById("friday").style.display = "block";
 }
 
+// wind chill
+wind= parseInt(document.getElementById('wind').textContent);
+temp= parseInt(document.getElementById('temp').textContent);
 
+chill=Math.round((0.0817*(3.71*(Math.pow(wind, 0.5))+
+5.81-0.25*wind)*(temp-91.4)+91.4));
+
+document.getElementById('chill').textContent = chill;
