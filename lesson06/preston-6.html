@@ -25,7 +25,7 @@
             <ul class="navigation">
                 <li><a id="ham" href="#" onclick="toggleMenu()">&#9776 Menu</a></li>
                 <li><a href="#">Home</a></li>
-                <li><a href="preston-4.html">Preston</a></li>
+                <li><a id="preston-nav" href="preston-4.html">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
                 <li><a href="#">Fish Haven</a></li>
                 <li><a href="#">Strom Center</a></li>
@@ -36,10 +36,15 @@
         <main>
             <h2>Preston Idaho</h2>
 
-            <img id="feild" src="img/feild-min.jpg" alt="feild with sun in sky">
+            <picture>
+                <source class="heroimg" srcset="img/hero-img-medium.png" media="(min-width: 450px) and (max-width: 799px)">
+                    <source class="heroimg" srcset="img/hero-img-large.png" media="(min-width: 800px)">
+                <img class="heroimg" src="img/hero-img-small.png" alt="feild with sun in sky">
+            </picture>
+            
 
-            <div>
-                <table id="weathersum">
+            <div id="weathersum">
+                <table id="weathersumtable">
                     <tr>
                         <th id="tablehead">Weather Summary</th>
                     </tr>
@@ -138,6 +143,14 @@
             <p><span id="currentdate"></span></p>
         </footer>
         <script src="js/preston.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+  WebFont.load({
+    google: {
+      families: ['Lato', 'Playfair Display']
+    }
+  });
+</script>
     </div>
     </div>
     </body>
