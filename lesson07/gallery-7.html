@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html land="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Preston Idaho Weather Site Page for Samantha Staheli in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+        <title>Preston Idaho Weather Site Page</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/gallery.css">
+        <link rel="stylesheet" href="css/gallery-medium.css">
+        <link rel="stylesheet" href="css/gallery-large.css">
+    </head>
+    <body>
+    <div id="backimage">
+    <div id="content">
+        <div id="header-and-nav"> 
+        <div id="friday">
+            <p>Saturday = Preston Pancakes in the Park!</p>
+            <p>9:00am Saturday at the city park.</p>
+        </div>
+        <header>
+            <img id="icon" src="img/world-icon-diamond.svg" alt="world of weather icon diamond">
+            <div id="header-text">
+                <h1>World of Weather</h1>
+                <div id="moto">Start your day off right</div>
+            </div>
+        </header>
+        <nav>
+            <ul class="navigation">
+                <li><a id="ham" href="#" onclick="toggleMenu()">&#9776 Menu</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a id="preston-nav" href="preston-4.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Strom Center</a></li>
+                <li><a id="gallery-nav" href="gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>
+        </div>
+        <main>
+            <h2>Weather Gallery</h2> 
+
+            <div id="gallery">
+                <figure>
+                    <img src="http://dummyimage.com/400x300/ccc/fff" data-src="img/gallery-img/barn.png" alt="barn on sunny day">
+                    <figcaption>Sunny Day on the Farm</figcaption>
+                </figure>
+                <figure>
+                    <img src="http://dummyimage.com/400x300/ccc/fff" data-src="img/gallery-img/lightning-feild.png" alt="lighting in feild">
+                    <figcaption>Lighting Storm</figcaption>
+                </figure>
+                <figure>
+                    <img src="http://dummyimage.com/400x300/ccc/fff" data-src="img/gallery-img/snow-mountains.png" alt="mountains coverd in snow">
+                    <figcaption>Snowy Winter</figcaption>
+                </figure>
+                <figure>
+                    <img src="http://dummyimage.com/400x300/ccc/fff" data-src="img/gallery-img/feild-tractor.png" alt="tractor pulling hay in feildr">
+                    <figcaption>Sunny Day for Working</figcaption>
+                </figure>
+                <figure>
+                    <img src="http://dummyimage.com/400x300/ccc/fff" data-src="img/gallery-img/sun-feild.png" alt="feild on sunny day">
+                    <figcaption>Sunny Day in Idaho</figcaption>
+                </figure>
+                <figure>
+                    <img src="http://dummyimage.com/400x300/ccc/fff" data-src="img/gallery-img/rainbow.png" alt="rainbow in sky">
+                    <figcaption>Rainbow Spotting</figcaption>
+                </figure>
+                <figure>
+                    <img src="http://dummyimage.com/400x300/ccc/fff" data-src="img/gallery-img/umbrella.png" alt="umbrella in rain">
+                    <figcaption>Rainy Day</figcaption>
+                </figure>
+                <figure>
+                    <img src="http://dummyimage.com/400x300/ccc/fff" data-src="img/gallery-img/sheep.png" alt="sheep">
+                    <figcaption>Sheep on the Farm</figcaption>
+                </figure>
+                <figure>
+                    <img src="http://dummyimage.com/400x300/ccc/fff" data-src="img/gallery-img/lightning-mountain.png" alt="Lighting in mountains">
+                    <figcaption>Lighting in Mountains</figcaption>
+                </figure>
+            </div>
+        </main>
+        <footer>
+            <p id="footwords">&copy; World of Weather | Attributions | Samantha Staheli</p>
+            <p><span id="currentdate"></span></p>
+        </footer>
+        <script src="js/gallery.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+  WebFont.load({
+    google: {
+      families: ['Lato', 'Playfair Display']
+    }
+  });
+</script>
+    </div>
+    </div>
+    </body>
+</html>

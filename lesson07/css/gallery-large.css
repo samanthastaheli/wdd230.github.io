@@ -1,0 +1,24 @@
+@media only screen and (min-width: 60em) {
+    main {
+        max-width: 850px;
+    }
+    #gallery {
+        margin: 300px;
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #icon {
+        height: 300px;
+    }
+    h1 {
+        font-size: 45px;
+    }
+    h2 {
+        padding: 40px;
+        font-size: 36px;
+    }
+    #moto {
+        font-size: 24px;
+    }
+}
