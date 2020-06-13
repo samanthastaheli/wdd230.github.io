@@ -1,0 +1,163 @@
+body {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    background-color: #315162;
+}
+
+main {
+    margin: 1.25rem auto;
+    max-width: 600px;
+    background-color: #315162;
+}
+
+
+/* header */ 
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+}
+
+#icon {
+    height: 200px;
+    justify-self: end;
+    align-items: center;
+}
+
+#header-and-nav {
+    background-color: #5C7B89;
+}
+
+h1 {
+    font-size: 32px;
+    padding-top: 50px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    font-family: 'Playfair-Display', serif;
+    color: #EAF0F9;
+}
+
+#moto {
+    font-size: 16px;
+}
+
+footer {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* nav menu */
+
+.navigation {
+    background-color: #EAF0F9;
+    clear: left;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+}
+
+#page-on-nav {
+    background-color: #315162;
+    color: #EAF0F9;
+}
+
+li {
+    display: none;
+}
+
+li a {
+    display: block;
+	padding: 15px;
+	text-align: center;
+	text-decoration: none;
+	color:#315162;
+}
+
+li a:hover {
+    color: black;
+    background-color: #EAF0F9;
+}
+
+li:first-child {
+    display: block;
+}
+
+.responsive li {
+    display: block;
+}
+
+/* main */
+
+h2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Playfair-Display', serif;
+    color: #EAF0F9;
+}
+
+/* form */
+
+form fieldset {
+    background-color: #EAF0F9;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+form legend {
+    background-color: #D9B359;
+    color: #315162;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+form label.toplabel, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #315162;
+    font-size: .8rem;
+}
+
+form label.toplabel input, form label.toplabel select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+form .sbslabel {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+
+form input.submit {
+    border: none;
+    background-color: #D9B359;
+    color: #315162;
+    border-radius: 100px;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 300px;
+    font-size: 14px;
+}
+/* footer  */
+
+footer {
+    background-color: #315162;
+    color: #EAF0F9;
+    padding: 10px;
+    text-align: center;
+    line-height: .5;
+}
