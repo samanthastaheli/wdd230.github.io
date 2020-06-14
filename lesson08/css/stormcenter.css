@@ -161,3 +161,15 @@ footer {
     text-align: center;
     line-height: .5;
 }
+
+/* thanks page */
+
+#thanks {
+    background-color: #EAF0F9;
+    color: #315162;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    line-height: .5em;
+    font-size: 18px;
+}
