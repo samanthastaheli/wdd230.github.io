@@ -132,9 +132,9 @@ form label.toplabel input, form label.toplabel select {
     font-size: 1rem;
     border: solid 1px #999;
     border-radius: 4px;
-    padding: .75rem;
+    padding: 10px;
     color: #555;
-    width: 100%;
+    width: 94%;
     max-width: 20rem;
     background-color: rgba(0,0,0,0.1);
 }
@@ -152,20 +152,22 @@ form input.submit {
     border-radius: 100px;
     padding: .75rem 1.5rem;
     margin: 0 0 2rem 2%;
-    width: 96%;
-    max-width: 20rem;
+    width: 100%;
+    max-width: 21rem;
     font-size: 16px;
 }
 
 #ten-label {
-    padding-left: 330px;
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 22rem;
 }
 /* footer  */
 
 footer {
     background-color: #315162;
     color: #EAF0F9;
-    padding: 10px;
+    padding: 90%;
     text-align: center;
     line-height: .5em;
 }
