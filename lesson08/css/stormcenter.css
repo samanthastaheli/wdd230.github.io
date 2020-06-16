@@ -109,6 +109,7 @@ form fieldset {
     border: none;
     border-radius: 10px;
     margin-bottom: 50px;
+    padding-bottom: 25px;
 }
 
 form legend {
