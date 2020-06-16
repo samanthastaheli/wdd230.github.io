@@ -46,16 +46,21 @@
                 <fieldset>
                     <legend>Storm Information</legend>
                     <label class="toplabel">Storm Date <input type="date" name="completeDate"></label>
-                    <label class="toplabel">Storm Type</label> 
+                    <label class="toplabel">Storm Type
                         <input list="stormType" name="stormType">
-                        <datalist>
-                            <option value="flood" name="flood">Flash Flood</option>
-                            <option value="hail" name="hail">Hail</option>
-                            <option value="hurricane" name="hurricane">Hurricane</option>
-                            <option value="thunderstorm" name="thunderstorm">Thunderstorm</option>
-                            <option value="tornado" name="tornado">Tornado</option>
+                        <datalist id="stormType">
+                            <option value="Flash Flood" name="flood"></option>
+                            <option value="Hail" name="hail"></option>
+                            <option value="Hurricane" name="hurricane"></option>
+                            <option value="Thunderstorm" name="thunderstorm"></option>
+                            <option value="Tornado" name="tornado"></option>
                         </datalist>
-                    <label class="toplabel">Storm Severity <input type="range"></label>
+                    </label> 
+                    <label class="toplabel">Storm Severity 
+                        <input type="range" min="1" max="10">
+                        <label id="one-label">1</label> 
+                        <label id="ten-label">10</label>
+                    </label>
                     <label class="toplabel">Storm Region
                         <select name="subject">
                             <option value="">Select Region...</option>
@@ -64,16 +69,18 @@
                         <option value="fishhaven" name="fishhaven">Fish Haven</option>
                         </select>
                     </label>
-                    <label class="toplabel">Are you in Danger?
+                    <label class="toplabel">Are you in Danger?</label>
                         <input class="sbslabel" type="radio" name="danger" value="yes"> Yes
+                        <br>
                         <input class="sbslabel" type="radio" name="danger" value="no"> No
-                    </label>
+                    
                     <label class="toplabel">Additional Information or Comments
                         <input type="textarea" name="additionalInfoOrComments">
                     </label>
                 </fieldset>
 
                 <input type="submit" name="submitButton" value="Report Storm" class="submit">
+                </form>
         </main>
 
         <footer>
