@@ -10,11 +10,17 @@ body {
     background-color: #FFE099;
 }
 
+footer {
+    margin-bottom: 30px;
+    color: #0B566F;
+}
+
 div {
     display: grid;
-    grid-template-columns: 250px;
+    justify-content: center;
+    grid-template-columns: auto;
     grid-gap: 15px;
-    margin: 50px;
+    margin-bottom: 50px;
 }
 
 section {
