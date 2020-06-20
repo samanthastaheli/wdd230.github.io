@@ -4,13 +4,13 @@ body {
     font-size: 16px;
     font-family: 'Lato', sans-serif;
     line-height: 1.5;
-    background-color: #315162;
+    background-color: #17386F;
 }
 
 main {
     margin: 1.25rem auto;
     max-width: 850px;
-    background-color: #315162;
+    background-color: #17386F;
 }
 
 #friday {
@@ -33,7 +33,7 @@ main {
 }
 
 #header-and-nav {
-    background-color: #5C7B89;
+    background-color: #51A5BF;
 }
 
 header {
@@ -47,7 +47,7 @@ h1 {
     padding-left: 0px;
     margin-bottom: 0px;
     font-family: 'Playfair-Display', serif;
-    color: #EAF0F9;
+    color: white;
 }
 
 #moto {
@@ -72,7 +72,7 @@ footer {
 }
 
 #preston-nav {
-    background-color: #315162;
+    background-color: #17386F;
     color: #EAF0F9;
 }
 
@@ -85,7 +85,7 @@ li a {
 	padding: 15px;
 	text-align: center;
 	text-decoration: none;
-	color:#315162;
+	color:#194151;
 }
 
 li a:hover {
@@ -214,7 +214,7 @@ h4 {
 /* footer */
 
 footer {
-    background-color: #315162;
+    background-color: #17386F;
     color: #EAF0F9;
     padding: 10px;
     text-align: center;

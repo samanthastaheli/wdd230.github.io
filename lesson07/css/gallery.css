@@ -2,13 +2,13 @@ body {
     font-size: 16px;
     font-family: 'Lato', sans-serif;
     line-height: 1.5;
-    background-color: #315162;
+    background-color: #17386F;
 }
 
 main {
     margin: 1.25rem auto;
     max-width: 300px;
-    background-color: #315162;
+    background-color: #17386F;
 }
 
 #friday {
@@ -35,7 +35,7 @@ header {
 }
 
 #header-and-nav {
-    background-color: #5C7B89;
+    background-color: #51A5BF;
 }
 
 h1 {
@@ -69,7 +69,7 @@ footer {
 }
 
 #page-on-nav {
-    background-color: #315162;
+    background-color: #17386F;
     color: #EAF0F9;
 }
 
@@ -132,13 +132,13 @@ img {
 figcaption {
     margin-bottom: 15px;
     margin-left: 15px;
-    color: #315162;
+    color: #17386F;
 }
 
 /* footer  */
 
 footer {
-    background-color: #315162;
+    background-color: #17386F;
     color: #EAF0F9;
     padding: 10px;
     text-align: center;
