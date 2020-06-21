@@ -4,13 +4,13 @@ body {
     font-size: 16px;
     font-family: 'Lato', sans-serif;
     line-height: 1.5;
-    background-color: #17386F;
+    background-color: #30455B;
 }
 
 main {
     margin: 1.25rem auto;
     max-width: 850px;
-    background-color: #17386F;
+    background-color: #30455B;
 }
 
 #friday {
@@ -33,7 +33,7 @@ main {
 }
 
 #header-and-nav {
-    background-color: #51A5BF;
+    background-color: #88CCD1;
 }
 
 header {
@@ -63,7 +63,7 @@ footer {
 /* nav menu */
 
 .navigation {
-    background-color: #EAF0F9;
+    background-color: #88CCD1;
     clear: left;
     list-style: none;
     display: flex;
@@ -72,7 +72,7 @@ footer {
 }
 
 #preston-nav {
-    background-color: #17386F;
+    background-color: #30455B;
     color: #EAF0F9;
 }
 
@@ -214,7 +214,7 @@ h4 {
 /* footer */
 
 footer {
-    background-color: #17386F;
+    background-color: #88CCD1;
     color: #EAF0F9;
     padding: 10px;
     text-align: center;

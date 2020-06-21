@@ -4,9 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>World of Weather Home Page</title>
+    <link rel="stylesheet" href="css/weather-home.css">
+    <link rel="stylesheet" href="css/weather-home-large.css">
 </head>
 <body>
-    <div class="cards"></div>
+    <div id="header-and-nav">
+        <header>
+            <img id="icon" src="img/world-icon-diamond.svg" alt="world of weather icon diamond">
+            <div id="header-text">
+                <h1>World of Weather</h1>
+                <div id="moto">Start your day off right</div>
+            </div>
+        </header>
+        <nav>
+            <ul class="navigation">
+                <li><a id="ham" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="preston-4.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a id="page-on-nav" href="stormcenter.html">Strom Center</a></li>
+                <li><a href="gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>
+        </div>
+    <main>
+        <div class="cards"></div>
+    </main>
+    <footer>
+        <p id="footwords">&copy; World of Weather | Attributions | Samantha Staheli</p>
+        <p><span id="currentdate"></span></p>
+    </footer>
     <script src="js/weather-home.js"></script>
 </body>
 </html>
