@@ -58,9 +58,6 @@ section {
     width: 100%;
 }
 
-.textDiv {
-    flex-wrap: none;
-}
 
 div.cards img {
     width: 90%;
