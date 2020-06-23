@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230: Lesson08 Storm Center Page">
+    <title>WDD 230: Lesson08 Storm Centr Page</title>
+    <link rel="stylesheet" href="css/stormcenter.css">
+    <link rel="stylesheet" href="css/stormcenter-medium.css">
+    <link rel="stylesheet" href="css/stormcenter-large.css">
+</head>
+<body>
+    <div id="header-and-nav">
+    <header>
+        <img id="icon" src="img/world-icon-diamond.svg" alt="world of weather icon diamond">
+        <div id="header-text">
+            <h1>World of Weather</h1>
+            <div id="moto">Start your day off right</div>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a id="ham" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="preston-4.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a id="page-on-nav" href="stormcenter.html">Strom Center</a></li>
+            <li><a href="gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    </div>
+        <main>
+            <h2>Storm Center</h2> 
+            
+            <form method="get" action="stormthanks.html">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label class="toplabel">First Name* <input type="text" name="fname" required></label> 
+                    <label class="toplabel">Last Name* <input type="text" name="fname" required></label> 
+                    <label class="toplabel">Phone* <input type="tel" name="phone" required></label> 
+                    <label class="toplabel">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label> 
+                    <label class="toplabel">Zip Code* <input type="number" name="number" required></label> 
+                </fieldset>
+
+                <fieldset>
+                    <legend>Storm Information</legend>
+                    <label class="toplabel">Storm Date <input type="date" name="completeDate"></label>
+                    <label class="toplabel">Storm Type
+                        <input list="stormType" name="stormType">
+                        <datalist id="stormType">
+                            <option value="Flash Flood" name="flood"></option>
+                            <option value="Hail" name="hail"></option>
+                            <option value="Hurricane" name="hurricane"></option>
+                            <option value="Thunderstorm" name="thunderstorm"></option>
+                            <option value="Tornado" name="tornado"></option>
+                        </datalist>
+                    </label> 
+                    <label class="toplabel">Storm Severity 
+                        <input type="range" min="1" max="10">
+                        <label id="one-label">1</label> 
+                        <label id="ten-label">10</label>
+                    </label>
+                    <label class="toplabel">Storm Region
+                        <select name="subject">
+                            <option value="">Select Region...</option>
+                        <option value="preston" name="preston">Preston</option>
+                        <option value="sodasprings" name="sodasprings">Soda Sprinds</option>
+                        <option value="fishhaven" name="fishhaven">Fish Haven</option>
+                        </select>
+                    </label>
+                    <label class="toplabel">Are you in Danger?</label>
+                        <input class="sbslabel" type="radio" name="danger" value="yes"> Yes
+                        <br>
+                        <input class="sbslabel" type="radio" name="danger" value="no"> No
+                    
+                    <label class="toplabel">Additional Information or Comments
+                        <input type="textarea" name="additionalInfoOrComments">
+                    </label>
+                </fieldset>
+
+                <input type="submit" name="submitButton" value="Report Storm" class="submit">
+                </form>
+        </main>
+
+        <footer>
+            <p id="footwords">&copy; World of Weather | Attributions | Samantha Staheli</p>
+            <p><span id="currentdate"></span></p>
+        </footer>
+        <script src="js/gallery.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+  WebFont.load({
+    google: {
+      families: ['Lato', 'Playfair Display']
+    }
+  });
+</script>
+    </body>
+</html>

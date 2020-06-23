@@ -1,0 +1,27 @@
+body {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    background-color: #30455B;
+    color: #EAF0F9;
+    text-align: center;
+}
+
+main {
+    margin: auto;
+    width: 100%;
+    max-width: 600px;
+    background-color: #30455B;
+}
+
+img {
+    height: 500px;
+}
+
+h1 {
+    color: #D9B358;
+}
+
+h2 {
+    padding-top: 50px;
+}
