@@ -27,4 +27,18 @@ li:first-child {
 .responsive li {
     display: none;
 }
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+.textDiv {
+    margin-left: 15px;
+    flex-wrap: wrap;
+}
+
+div.cards img {
+    width: 50%;
+    margin: 10px;
+}
 }

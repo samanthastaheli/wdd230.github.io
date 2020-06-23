@@ -6,9 +6,9 @@ body {
 }
 
 main {
-    margin: 1.25rem auto;
-    width: 96%;
-    max-width: 600px;
+    margin: auto;
+    width: 100%;
+    max-width: 960px;
     background-color: #30455B;
 }
 
@@ -24,6 +24,7 @@ header {
     height: 200px;
     justify-self: end;
     align-items: center;
+    padding-top: 35px;
 }
 
 #header-and-nav {
@@ -31,7 +32,7 @@ header {
 }
 
 h1 {
-    font-size: 32px;
+    font-size: 40px;
     padding-top: 50px;
     padding-left: 0px;
     margin-bottom: 0px;
@@ -39,13 +40,6 @@ h1 {
     color: #EAF0F9;
 }
 
-h2 {
-    text-align: center;
-    padding: 20px;
-    font-size: 30px;
-    font-family: 'Playfair-Display', serif;
-    color: #EAF0F9;
-}
 
 #moto {
     font-size: 16px;
@@ -104,7 +98,37 @@ li:first-child {
 /* main */
 
 
+div.cards section {
+    background-color: #EAF0F9;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 90%;
+    text-align: center;
+    border-radius: 20px;
+}
 
+div.cards img {
+    width: 92%;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+div.cards h2 {
+    font-size: 30px;
+    color: #182A3C;
+}
+
+div.cards h3 {
+    font-size: 16px;
+    color: #42905C;
+}
+
+.textDiv {
+    line-height: 1em;
+    color: #182A3C;
+}
 /* footer  */
 
 footer {
@@ -112,5 +136,6 @@ footer {
     color: #182A3C;
     padding: 10px;
     text-align: center;
-    line-height: .5em;
+    line-height: 1.5em;
+    font-size: 14px;
 }
