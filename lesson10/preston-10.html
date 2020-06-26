@@ -1,11 +1,160 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<html land="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Preston Idaho Weather Site Page for Samantha Staheli in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+        <title>Preston Idaho Weather Site Page</title>
+        <link rel="stylesheet" href="css/preston.css">
+        <link rel="stylesheet" href="css/preston-medium.css">
+        <link rel="stylesheet" href="css/preston-large.css">
+    </head>
+    <body>
+    <div id="backimage">
+    <div id="content">
+        <div id="header-and-nav"> 
+        <div id="friday">
+            <p>Saturday = Preston Pancakes in the Park!</p>
+            <p>9:00am Saturday at the city park.</p>
+        </div>
+        <header>
+            <img id="icon" src="img/world-icon-diamond.svg" alt="world of weather icon diamond">
+            <div id="header-text">
+            <h1>World of Weather</h1>
+            <div id="moto">Start your day off right</div>
+        </div>
+        </header>
+        <nav>
+            <ul class="navigation">
+                <li><a id="ham" href="#" onclick="toggleMenu()">&#9776 Menu</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a id="preston-nav" href="preston-4.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Strom Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+        </div>
+        <main>
+            <h2>Preston Idaho</h2> 
+
+            <picture>
+                <source class="heroimg" srcset="img/hero-img-medium.png" media="(min-width: 450px) and (max-width: 799px)">
+                    <source class="heroimg" srcset="img/hero-img-large.png" media="(min-width: 800px)">
+                <img class="heroimg" src="img/hero-img-small.png" alt="feild with sun in sky">
+            </picture>
+            
+
+            <div id="weathersum">
+                <table id="weathersumtable">
+                    <tr>
+                        <th id="tablehead">Weather Summary</th>
+                    </tr>
+                    <tr>
+                        <td class="columnone">Currently:</td>
+                        <td class="columntwo"><span id="current-weather"></span></td>
+                    </tr>
+                    <tr>
+                        <td class="columnone">High:</td>
+                        <td class="columntwo"><span id="temp"></span>&deg;</td>
+                    </tr>
+                    <tr>
+                        <td class="columnone">Wind Chill:</td>
+                        <td class="columntwo"><span id="chill"></span></td>
+                    </tr>
+                    <tr>
+                        <td class="columnone">Humidity:</td>
+                        <td class="columntwo"><span id="humidity"></span></td>
+                    </tr>
+                    <tr>
+                        <td class="columnone">Wind Speed:</td>
+                        <td class="columntwo"><span id="wind"></span></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="fivedayforcast">
+                <h3 id="fiveforcasttitle">5 Day Forcast</h3>
     
-</body>
+                <table id="fiveforcasttable">
+                    <tr id="tableday">
+                        <td class="fiveforcast-td">Wed</td>
+                        <td class="fiveforcast-td">Thu</td>
+                        <td class="fiveforcast-td">Fri</td>
+                        <td class="fiveforcast-td">Sat</td>
+                        <td class="fiveforcast-td">Sun</td>
+                    </tr>
+                    <tr>
+                        <td><img class="forcasticon fiveforcast-td"><span id="image0"></span> &nbsp; <img src="" alt="" class="icon"></td>
+                        <td><img class="forcasticon fiveforcast-td"><span id="image1"></span> &nbsp; <img src="" alt="" class="icon"></td>
+                        <td><img class="forcasticon fiveforcast-td"><span id="image2"></span> &nbsp; <img src="" alt="" class="icon"></td>
+                        <td><img class="forcasticon fiveforcast-td"><span id="image3"></span> &nbsp; <img src="" alt="" class="icon"></td>
+                        <td><img class="forcasticon fiveforcast-td"><span id="image4"></span> &nbsp; <img src="" alt="" class="icon"></td>
+                    </tr>
+                    <tr>
+                        <td class="fiveforcast-td"><span id="day0"></span>&deg;</td>
+                        <td class="fiveforcast-td"><span id="day1"></span>&deg;</td>
+                        <td class="fiveforcast-td"><span id="day2"></span>&deg;</td>
+                        <td class="fiveforcast-td"><span id="day3"></span>&deg;</td>
+                        <td class="fiveforcast-td"><span id="day4"></span>&deg;</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="article">
+                <img id="park" src="img/park-min.jpg" alt="park with path, trees, and people sitting on grass">
+                <h3>Founders Day Fresco</h3>
+                <h4 id="articleauthor">By: Samantha Staheli</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dolor laudantium numquam debitis iure ducimus minus nihil, nesciunt eveniet totam atque consequatur tempora ipsam iste. Dolorem molestiae in obcaecati reprehenderit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus error mollitia, quas architecto voluptates odio adipisci fugiat, quod, totam ipsa consequuntur dolores esse molestias porro suscipit vero. Quos, architecto facilis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat consequuntur labore consequatur quasi perspiciatis debitis totam vero. Quia reiciendis facilis esse rem a? Aliquam dignissimos vero rem quas! Id, doloribus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias debitis aliquam esse molestiae nostrum vero, quisquam sequi nam consectetur similique quaerat porro pariatur non quia ut ad repudiandae, itaque deleniti? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero perferendis odit necessitatibus? Voluptates incidunt consectetur illo illum optio quasi facere recusandae voluptatem, quis in magni minima voluptatibus dolorem. Eius, tempora? ... <a href="#">continue to full article</a></p>
+            </div>
+
+           <div id="map-contact">
+            <div>
+                <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.72628274797!2d-111.91534439243388!3d42.09980531175394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1590263881834!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+               </div>
+    
+                <div id="contact">
+                    <h4>World of Weather</h4>
+
+                    <table id="contacttable">
+                        <tr>
+                            <td>&#127968;</td>
+                            <td>30 N 1st E</td>
+                        </tr>
+                        <tr>
+                            <td> </td>
+                            <td>Preston, ID 83263</td>
+                        </tr>
+                        <tr>
+                            <td>☎️</td>
+                            <td>999.999.9999</td>
+                        </tr>
+                        <tr>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td>📧</td>
+                            <td>worldofweather@gmail.com</td>
+                        </tr>
+                    </table>
+                </div>
+           </div>
+        </main>
+        <footer>
+            <p id="footwords">&copy; World of Weather | Attributions | Samantha Staheli</p>
+            <p><span id="currentdate"></span></p>
+        </footer>
+        <script src="js/preston.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+  WebFont.load({
+    google: {
+      families: ['Lato', 'Playfair Display']
+    }
+  });
+</script>
+    </div>
+    </div>
+    </body>
 </html>
