@@ -59,6 +59,14 @@
         margin-top: 160px;
     }
     
+    #fivedayforcast {
+        font-size: 18px;
+    }
+    
+    #icon0, #icon1, #icon2, #icon3, #icon4 {
+        height: 80px;
+    }
+
     #park {
         height: 250px;
         margin-left: 15px;

@@ -77,10 +77,9 @@ fetch(apiFive)
         // document.getElementById('day4').textContent = dayfour;
 
         for(let i = 0; i < 5; i++) {
-            imagesrc = 'https://openweathermap.org/img/w/' + jsonObject.list[i].weather[i].icon + '.png';
-            desc = jsonObject.list[i].weather[i].description;
+            imagesrc = 'https://openweathermap.org/img/w/' + jsonObject.list[i].weather[0].icon + '.png';
+            desc = jsonObject.list[i].weather[0].description;
         
-            document.getElementById('image' + i).textContent = imagesrc;
             document.getElementById('icon' + i).setAttribute('src', imagesrc);
             document.getElementById('icon' + i).setAttribute('alt', desc);
         }

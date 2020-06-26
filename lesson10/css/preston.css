@@ -14,16 +14,6 @@ main {
     background-color: #30455B;
 }
 
-#friday {
-    display: none;
-    background-color: #D9B359;
-    text-align: center;
-    padding: 10px;
-    font-size: 18px;
-    line-height: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
 /* header */ 
 
 header {
@@ -122,8 +112,8 @@ h4 {
 }
 
 .heroimg {
-    width: 100%;
-    max-width: 860px;
+    width: 96%;
+    max-width: 850px;
     position: absolute;
 }
 
@@ -156,7 +146,7 @@ h4 {
 
 #fivedayforcast {
     background-color: #EAF0F9;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     padding: 15px;
     align-items: center;
@@ -168,8 +158,8 @@ h4 {
     margin-right: auto;
 }
 
-.forcasticon {
-    height: 80px;
+#icon0, #icon1, #icon2, #icon3, #icon4 {
+    height: 60px;
 }
 
 /* article */
@@ -186,10 +176,13 @@ h4 {
 }
 
 #articleauthor {
-    font-size: 12px;
-    color: green;
+    font-size: 14px;
+    color: #182A3C;
 }
 
+p {
+    color: #182A3C;
+}
 /* map and contact info */
 
 #map-contact {
@@ -219,5 +212,13 @@ footer {
 
 /* pancake message */
 
-
+#friday {
+    display: none;
+    background-color: #D9B359;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
