@@ -2,14 +2,14 @@ body {
     font-size: 16px;
     font-family: 'Lato', sans-serif;
     line-height: 1.5;
-    background-color: #17386F;
+    background-color: #30455B;
 }
 
 main {
     margin: 1.25rem auto;
     width: 96%;
     max-width: 600px;
-    background-color: #17386F;
+    background-color: #30455B;
 }
 
 
@@ -27,7 +27,7 @@ header {
 }
 
 #header-and-nav {
-    background-color: #51A5BF;
+    background-color: #182A3C;
 }
 
 h1 {
@@ -37,6 +37,7 @@ h1 {
     margin-bottom: 0px;
     font-family: 'Playfair-Display', serif;
     color: #EAF0F9;
+    letter-spacing: 1px;
 }
 
 h2 {
@@ -62,7 +63,7 @@ footer {
 /* nav menu */
 
 .navigation {
-    background-color: #EAF0F9;
+    background-color: #88CCD1;
     clear: left;
     list-style: none;
     display: flex;
@@ -71,7 +72,7 @@ footer {
 }
 
 #page-on-nav {
-    background-color: #17386F;
+    background-color: #30455B;
     color: #EAF0F9;
 }
 
@@ -88,8 +89,9 @@ li a {
 }
 
 li a:hover {
-    color: black;
+    color: #182A3C;
     background-color: #EAF0F9;
+    box-shadow: 3px 3px 8px #D9B358;
 }
 
 li:first-child {
@@ -114,7 +116,7 @@ form fieldset {
 
 form legend {
     background-color: #D9B359;
-    color: #17386F;
+    color: #182A3C;
     border-radius: 10px;
     padding: 10px;
     font-size: 18px;
@@ -148,7 +150,7 @@ form label.toplabel input, form label.toplabel select {
 form input.submit {
     border: none;
     background-color: #D9B359;
-    color: #263C44;
+    color: #182A3C;
     border-radius: 100px;
     padding: .75rem 1.5rem;
     margin: 0 0 2rem 2%;
@@ -157,26 +159,40 @@ form input.submit {
     font-size: 16px;
 }
 
-#ten-label {
+/* storm severity range slider */
+
+#one-label {
     display: flex;
-    flex-direction: row-reverse;
-    max-width: 22rem;
+    align-items: center;
 }
+
+
+input[type=range] {
+    color: pink;
+    border: 0px;
+    cursor: pointer;
+}
+
+
 /* footer  */
 
 footer {
-    background-color: #17386F;
-    color: #EAF0F9;
-    padding: 90%;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    line-height: .5em;
+    background-color: #88CCD1;
+    color: #182A3C;
+    padding: 10px;
+    text-align: center;
+    line-height: 1em;
+    margin-top: 100px;
 }
 
 /* thanks page */
 
 #thanks {
     background-color: #EAF0F9;
-    color: #17386F;
+    color: #182A3C;
     border-radius: 10px;
     padding: 20px;
     text-align: center;

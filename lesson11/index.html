@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World of Weather Home Page</title>
+    <link rel="stylesheet" href="css/weather.css">
+    <link rel="stylesheet" href="css/weather-medium.css">
+    <link rel="stylesheet" href="css/weather-large.css">
+</head>
+<body>
+    <div id="header-and-nav">
+        <header>
+            <img id="icon" src="img/world-icon-diamond.svg" alt="world of weather icon diamond">
+            <div id="header-text">
+                <h1>World of Weather</h1>
+                <div id="moto">Start your day off right</div>
+            </div>
+        </header>
+        <nav>
+            <ul class="navigation">
+                <li><a id="ham" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a id="page-on-nav" href="index.html">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="soda-springs.html">Soda Springs</a></li>
+                <li><a href="fish-haven.html">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Strom Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        </div>
+    <main>
+        <div class="cards"></div>
+    </main>
+    <footer>
+        <p id="footwords">&copy; World of Weather | Attributions | Samantha Staheli</p>
+        <p><span id="currentdate"></span></p>
+    </footer>
+    <script src="js/weather.js"></script>
+    <script src="js/weather-home.js"></script>
+</body>
+</html>
