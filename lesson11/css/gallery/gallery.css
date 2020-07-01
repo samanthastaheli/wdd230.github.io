@@ -1,0 +1,26 @@
+
+/* gallery */
+
+#gallery {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+}
+
+figure {
+    background-color: #EAF0F9;
+}
+
+img {
+    width: 100;
+    justify-items: center;
+    padding: 15px;
+    padding-bottom: 8px;
+}
+
+figcaption {
+    margin-bottom: 15px;
+    margin-left: 15px;
+    color: #17386F;
+}

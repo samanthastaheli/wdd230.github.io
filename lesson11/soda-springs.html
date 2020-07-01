@@ -3,11 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Preston Idaho Weather Site Page for Samantha Staheli in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
-        <title>Preston Idaho Weather Site Page</title>
-        <link rel="stylesheet" href="css/preston.css">
-        <link rel="stylesheet" href="css/preston-medium.css">
-        <link rel="stylesheet" href="css/preston-large.css">
+        <meta name="description" content="Soda Springs Idaho Weather Site Page for Samantha Staheli in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+        <title>Soda Springs Weather</title>
+        <link rel="stylesheet" href="css/town-page.css">
+        <link rel="stylesheet" href="css/weather.css">
+        <link rel="stylesheet" href="css/weather-medium.css">
+        <link rel="stylesheet" href="css/weather-large.css">
     </head>
     <body>
     <div id="backimage">
@@ -27,17 +28,17 @@
         <nav>
             <ul class="navigation">
                 <li><a id="ham" href="#" onclick="toggleMenu()">&#9776 Menu</a></li>
-                <li><a href="#">Home</a></li>
-                <li><a id="preston-nav" href="preston-4.html">Preston</a></li>
-                <li><a href="#">Soda Springs</a></li>
-                <li><a href="#">Fish Haven</a></li>
-                <li><a href="#">Strom Center</a></li>
-                <li><a href="#">Gallery</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a id="page-on-nav" href="soda-springs.html">Soda Springs</a></li>
+                <li><a href="fish-haven.html">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Strom Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
             </ul>
         </nav>
         </div>
         <main>
-            <h2>Preston Idaho</h2> 
+            <h2>Soda Springs Idaho</h2> 
 
             <picture>
                 <source class="heroimg" srcset="img/hero-img-medium.png" media="(min-width: 450px) and (max-width: 799px)">
@@ -111,8 +112,18 @@
 
            <div id="map-contact">
             <div>
-                <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.72628274797!2d-111.91534439243388!3d42.09980531175394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1590263881834!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-               </div>
+                <iframe 
+                    id="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23471.978813137433!2d-111.60628164431219!3d42.66141151672139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8755968bb0047ae5%3A0x9d3970a1a6df8e12!2sSoda%20Springs%2C%20ID%2083276!5e0!3m2!1sen!2sus!4v1593639293781!5m2!1sen!2sus" 
+                    width="600" 
+                    height="450" 
+                    frameborder="0" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    aria-hidden="false"                         
+                    tabindex="0">
+                </iframe>
+            </div>
     
                 <div id="contact">
                     <h4>World of Weather</h4>
@@ -120,11 +131,11 @@
                     <table id="contacttable">
                         <tr>
                             <td>&#127968;</td>
-                            <td>30 N 1st E</td>
+                            <td>76 S Main St</td>
                         </tr>
                         <tr>
                             <td> </td>
-                            <td>Preston, ID 83263</td>
+                            <td>Soda Springs, ID 83276</td>
                         </tr>
                         <tr>
                             <td>☎️</td>
@@ -145,7 +156,7 @@
             <p id="footwords">&copy; World of Weather | Attributions | Samantha Staheli</p>
             <p><span id="currentdate"></span></p>
         </footer>
-        <script src="js/preston.js"></script>
+        <script src="js/weather-home.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 <script>
   WebFont.load({
