@@ -54,6 +54,59 @@ form input.submit {
     font-size: 16px;
 }
 
+/* slider */
+
+.slider {
+    color: pink;
+    /* -webkit-appearance: none;
+    display: none;
+    width: 100%;
+    height: 1px;
+    border-radius: 0px;
+    background: pink;
+    color: yellow;
+    background-color: green;
+    border: none;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s; */
+
+    /* -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    color: pink;
+    background: pink;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s; */
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #182A3C;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #182A3C;
+    cursor: pointer;
+}
+
 #ten-label {
     display: flex;
     flex-direction: row-reverse;
