@@ -1,19 +1,19 @@
 @media only screen and (min-width: 60em) {
 
     h1 {
-        font-size: 60px;
+        font-size: 48px;
     }
     
     h2 {
-        font-size: 45px;
+        font-size: 36px;
     }
     
     #moto {
-        font-size: 24px;
+        font-size: 18px;
     }
     
     #icon {
-        height: 300px;
+        height: 150px;
     }
 
     .navigation {
