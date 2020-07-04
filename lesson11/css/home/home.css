@@ -4,7 +4,7 @@
 div.cards section {
     background-color: #EAF0F9;
     margin: auto;
-    margin-top: 0px;
+    margin-top: 40px;
     margin-bottom: 30px;
     padding: 10px;
     width: 90%;
@@ -30,4 +30,14 @@ div.cards h3 {
 .textDiv {
     line-height: 1em;
     color: #182A3C;
+}
+
+#map-contact {
+    background-color: #EAF0F9;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+#map {
+    width: 100%;
 }

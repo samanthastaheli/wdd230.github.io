@@ -5,7 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Preston Idaho Weather Site Page for Samantha Staheli in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
         <title>Preston Idaho Weather</title>
-        <link rel="stylesheet" href="css/town-page.css">
+        <link rel="stylesheet" href="css/town-page/town-page.css">
+        <link rel="stylesheet" href="css/town-page/town-page-medium.css">
+        <link rel="stylesheet" href="css/town-page/town-page-large.css">
         <link rel="stylesheet" href="css/weather.css">
         <link rel="stylesheet" href="css/weather-medium.css">
         <link rel="stylesheet" href="css/weather-large.css">
@@ -32,7 +34,7 @@
                 <li><a id="page-on-nav" href="preston.html">Preston</a></li>
                 <li><a href="soda-springs.html">Soda Springs</a></li>
                 <li><a href="fish-haven.html">Fish Haven</a></li>
-                <li><a href="stormcenter.html">Strom Center</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
             </ul>
         </nav>
@@ -103,6 +105,11 @@
                 </table>
             </div>
 
+            <div id="upcoming-events">
+                <h3>Upcoming Events</h3>
+                <div class="events"></div>
+            </div>
+
             <div id="article">
                 <img id="park" src="img/preston/park-min.jpg" alt="park with path, trees, and people sitting on grass">
                 <h3>Founders Day Fresco</h3>
@@ -156,7 +163,7 @@
             <p id="footwords">&copy; World of Weather | Attributions | Samantha Staheli</p>
             <p><span id="currentdate"></span></p>
         </footer>
-        <script src="js/preston.js"></script>
+        <script src="js/preston/preston.js"></script>
         <script src="js/weather.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 <script>

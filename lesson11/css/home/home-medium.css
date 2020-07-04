@@ -7,6 +7,7 @@ section {
 
 div.cards section {
     text-align: left;
+    margin-top: 55px;
 }
 
 .textDiv {
@@ -20,7 +21,7 @@ div.cards img {
 }
 
 div.cards h2 {
-    font-size: 32px;
+    font-size: 28px;
 }
 
 div.cards h3 {

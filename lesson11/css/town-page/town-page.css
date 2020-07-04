@@ -31,7 +31,7 @@ h4 {
 
 .heroimg {
     width: 96%;
-    max-width: 850px;
+    max-width: 960px;
     position: absolute;
 }
 
@@ -78,6 +78,15 @@ h4 {
 
 #icon0, #icon1, #icon2, #icon3, #icon4 {
     height: 60px;
+}
+
+/* upcoming events */
+
+#upcoming-events {
+    background-color: #EAF0F9;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
 }
 
 /* article */

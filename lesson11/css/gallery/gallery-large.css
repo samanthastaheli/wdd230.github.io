@@ -1,16 +1,14 @@
 @media only screen and (min-width: 60em) {
     main {
-        max-width: 850px;
+        max-width: 860px;
     }
     #gallery {
-        margin: 300px;
-        margin-top: 20px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
    figure:hover {
         box-shadow: 7px 4px 24px -6px #D9B359;;
-        cursor: pointer;
+        cursor: none;
     }
     #icon {
         height: 300px;
