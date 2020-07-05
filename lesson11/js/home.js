@@ -26,6 +26,7 @@ fetch(requestURL)
             let p2 = document.createElement('p');
             let p3 = document.createElement('p');
             let photo = document.createElement('img');
+            let link = ['fish-haven.html', 'preston.html', 'soda-springs'];
         
             div.classList.add('textDiv'); 
             photo.setAttribute('src', 'img/' + towns[i].photo);
