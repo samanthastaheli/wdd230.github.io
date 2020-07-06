@@ -20,11 +20,15 @@ header {
     grid-template-columns: 1fr 1.3fr;
 }
 
-#icon {
-    height: 200px;
+#icon-div {
     justify-self: end;
     align-items: center;
-    padding-top: 35px;
+    padding-top: 25px;
+    padding-bottom: 15px; 
+}
+
+#icon {
+    height: 200px;
 }
 
 #header-and-nav {
@@ -34,7 +38,7 @@ header {
 h1 {
     font-size: 40px;
     padding-top: 25px;
-    padding-left: 0px;
+    padding-left: 10px;
     margin-bottom: 0px;
     font-family: 'Playfair-Display', serif;
     color: #182A3C;
@@ -44,6 +48,7 @@ h1 {
     font-size: 16px;
     font-family: 'Lato', sans-serif;
     color: #182A3C;
+    padding-left: 12px;
 }
 
 /* nav menu */
