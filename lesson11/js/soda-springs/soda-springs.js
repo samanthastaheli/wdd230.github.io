@@ -64,28 +64,27 @@ fetch(apiFive)
         
     })
 
-const apiEvents = "https://byui-cit230.github.io/weather/data/towndata.json"
+    const apiEvents = "https://byui-cit230.github.io/weather/data/towndata.json"
 
-fetch(apiEvents)
-    .then((response) => response.json())
-    .then((jsonObject) => {
-        console.log(jsonObject);
-        const source = jsonObject['towns'];
-
-        for(let i = 0; i < source.length; i++) {
-            if (source[i].name == "Soda Springs") {
-                soda = source[i].events;
-            }}
-
-        for(let i = 0; i < 1; i++) {
+    fetch(apiEvents)
+        .then((response) => response.json())
+        .then((jsonObject) => {
+            console.log(jsonObject);
+            const towns = jsonObject['towns'];
+            
+            for(let i = 0; i < towns.length; i++) {
+                if (towns[i].name == "Soda Springs") {
+                    for(let x = 0; x < towns[i].events.length; x++){
+                        soda = towns[i].events[x];
     
-            let event = document.createElement('section');
-            let p = document.createElement('p');
-
-            p.textContent = soda;
-
-            event.appendChild(p);
-    
-            document.querySelector('.events').appendChild(event);
-        }
-    })
+                        let event = document.createElement('section');
+                        let p = document.createElement('p');
+                        
+                        p.textContent = soda;
+                    
+                        event.appendChild(p);
+                    
+                        document.querySelector('.events').appendChild(event);
+                    }
+                }}
+        })

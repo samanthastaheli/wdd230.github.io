@@ -68,25 +68,26 @@ fetch(apiFive)
 const apiEvents = "https://byui-cit230.github.io/weather/data/towndata.json"
 
 fetch(apiEvents)
-    .then((response) => response.json())
-    .then((jsonObject) => {
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (jsonObject) {
         console.log(jsonObject);
-        const source = jsonObject['towns'];
+        const towns = jsonObject['towns'];
 
-        for(let i = 0; i < source.length; i++) {
-            if (source[i].name == "Preston") {
-                preston = source[i].events;
+        for(let i = 0; i < towns.length; i++) {
+            if (towns[i].name == "Preston") {
+                for(let x = 0; x < towns[i].events.length; x++){
+                    preston = towns[i].events[x];
+
+                    let event = document.createElement('section');
+                    let p = document.createElement('p');
+                    
+                    p.textContent = preston;
+                
+                    event.appendChild(p);
+                
+                    document.querySelector('.events').appendChild(event);
+                }
             }}
-
-        for(let i = 0; i < 1; i++) {
-    
-            let event = document.createElement('section');
-            let p = document.createElement('p');
-
-            p.textContent = preston;
-
-            event.appendChild(p);
-    
-            document.querySelector('.events').appendChild(event);
-        }
     })
