@@ -72,21 +72,21 @@ fetch(apiEvents)
     .then((jsonObject) => {
         console.log(jsonObject);
         const source = jsonObject['towns'];
-        
 
         for(let i = 0; i < source.length; i++) {
             if (source[i].name == "Preston") {
-                source = source[i].events
-            }
+                preston = source[i].events;
+            }}
 
+        for(let i = 0; i < 1; i++) {
+    
             let event = document.createElement('section');
             let p = document.createElement('p');
 
-            p.textContent = source[i].events;
+            p.textContent = preston;
 
             event.appendChild(p);
     
             document.querySelector('.events').appendChild(event);
         }
-        
     })

@@ -63,3 +63,35 @@ fetch(apiFive)
         }
         
     })
+
+    const apiEvents = "https://byui-cit230.github.io/weather/data/towndata.json"
+
+fetch(apiEvents)
+    .then((response) => response.json())
+    .then((jsonObject) => {
+        console.log(jsonObject);
+        const source = jsonObject['towns'];
+        // const name = source['name'];
+        // const fishHaven = name['fishHaven'];
+        
+        for(let i = 0; i < source.length; i++) {
+            if (source[i].name == "Fish Haven") {
+                fish = source[i].events;
+            }}
+
+        for(let i = 0; i < 1; i++) {
+            // if (source[i].name == "Fish Haven") {
+            //     fishHaven = source[i].events;
+            // }
+            // let fishHaven = source['Fish Haven'].name;
+
+            let event = document.createElement('section');
+            let p = document.createElement('p');
+
+            p.textContent = fish;
+
+            event.appendChild(p);
+    
+            document.querySelector('.events').appendChild(event);
+        }
+    })
