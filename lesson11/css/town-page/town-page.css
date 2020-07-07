@@ -10,10 +10,11 @@
 
 h2 {
     text-align: center;
-    padding: 50px;
+    padding: 40px;
+    padding-bottom: 10px;
     font-size: 36px;
     font-family: 'Playfair-Display', serif;
-    color: #EAF0F9;
+    color: #CD9737;
 }
 
 h3 {
@@ -99,6 +100,11 @@ h4 {
 
 #park {
     height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#lake {
+    height: 250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 

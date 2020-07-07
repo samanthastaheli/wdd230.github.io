@@ -78,6 +78,13 @@
         margin-top: 18px;
         float: right;
     }
+
+    #lake {
+        height: 450px;
+        margin-left: 15px;
+        margin-top: 18px;
+        float: right;
+    }
     
     .forcasticon {
         height: 100px;
