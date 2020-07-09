@@ -34,6 +34,10 @@ li a {
     text-decoration: none;
     color:#315162;
     font-size: 18px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 li:first-child {

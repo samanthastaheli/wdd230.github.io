@@ -81,6 +81,8 @@ li a {
 	text-align: center;
 	text-decoration: none;
     color:#182A3C;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }

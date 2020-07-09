@@ -93,14 +93,18 @@
                         </select>
                     </label>
                     <label class="toplabel">Are you in Danger?</label>
-                        <input class="sbslabel" type="radio" name="danger" value="yes"> Yes
+                        <label>
+                            <input class="sbslabel" type="radio" name="danger" value="yes"> Yes
+                        </label>
                         <br>
-                        <input class="sbslabel" type="radio" name="danger" value="no"> No
-                    
+                        <label>
+                            <input class="sbslabel" type="radio" name="danger" value="no"> No
+                        </label>
                     <label class="toplabel">Additional Information or Comments
                         <!-- <input type="textarea" name="additionalInfoOrComments"> -->
+                        <textarea name="addInfo" rows="10" cols="30"></textarea>
                     </label>
-                    <textarea name="addInfo" rows="10" cols="30"></textarea>
+                    
                 </fieldset>
 
                 <input type="submit" name="submitButton" value="Report Storm" class="submit">
