@@ -47,4 +47,93 @@ li:first-child {
 .responsive li {
     display: none;
 }
+
+/* home */
+section {
+    display: block;
+    
+}
+
+div.cards section {
+    text-align: center;
+    margin-top: 0px;
+}
+
+div.cards h2 {
+    font-size: 28px;
+    line-height: .5rem;
+}
+
+div.cards h3 {
+    font-size: 16px;
+    line-height: 1.9rem;
+}
+
+div.cards p {
+    font-size: 16px;
+    line-height: .5rem;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+
+div.cards img {
+    height: 185px;
+    width: auto;
+    padding: 10px;
+    margin: auto;
+}
+
+    .heroimg {
+        width: 960px;
+
+    }
+    
+    #weathersumtable {
+        padding: 10px;
+        font-size: 18px;
+        margin: 30px;
+        margin-top: 140px;
+    }
+    
+    #tablehead {
+        font-size: 24px;
+    }
+    
+    #fivedayforcast {
+        margin-top: 185px;
+    }
+    
+    #fivedayforcast {
+        font-size: 18px;
+    }
+    
+    #icon0, #icon1, #icon2, #icon3, #icon4 {
+        height: 80px;
+    }
+
+    #park {
+        height: 250px;
+        margin-left: 15px;
+        margin-top: 18px;
+        float: right;
+    }
+
+    #lake {
+        height: 450px;
+        margin-left: 15px;
+        margin-top: 18px;
+        float: right;
+    }
+    
+    .forcasticon {
+        height: 100px;
+    }
 }

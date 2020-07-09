@@ -37,22 +37,6 @@ fetch(apiFive)
             temp = Math.round(tk * 9 / 5 - 459.76);
             document.getElementById('day' + i).textContent = temp;
         }
-        
-        // let one = document.textContent = jsonObject.list[1].main.temp;
-        // let dayone = Math.round(one * 9 / 5 - 459.76);
-        // document.getElementById('day1').textContent = dayone;
-
-        // let two = document.textContent = jsonObject.list[2].main.temp;
-        // let daytwo = Math.round(two * 9 / 5 - 459.76);
-        // document.getElementById('day2').textContent = daytwo;
-
-        // let three = document.textContent = jsonObject.list[3].main.temp;
-        // let daythree = Math.round(three * 9 / 5 - 459.76);
-        // document.getElementById('day3').textContent = daythree;
-
-        // let four = document.textContent = jsonObject.list[4].main.temp;
-        // let dayfour = Math.round(four * 9 / 5 - 459.76);
-        // document.getElementById('day4').textContent = dayfour;
 
         for(let i = 0; i < 5; i++) {
             imagesrc = 'https://openweathermap.org/img/wn/' + jsonObject.list[i].weather[0].icon + '.png';

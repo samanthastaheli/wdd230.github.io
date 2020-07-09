@@ -103,6 +103,182 @@ li:first-child {
 
 /* main */
 
+h2 {
+    text-align: center;
+    padding: 40px;
+    padding-bottom: 10px;
+    font-size: 36px;
+    font-family: 'Playfair-Display', serif;
+    color: #CD9737;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: .8rem;
+    font-family: 'Playfair-Display', serif;
+    color: #182A3C;
+}
+
+h4 {
+    font-size: 18px;
+    font-family: 'Playfair-Display', serif;
+    color: #182A3C;
+}
+
+.heroimg {
+    width: 96%;
+    max-width: 960px;
+    position: absolute;
+}
+
+/* home page */
+
+div.cards section {
+    background-color: #EAF0F9;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 90%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+div.cards img {
+    width: 92%;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+div.cards h2 {
+    font-size: 24px;
+    color: #182A3C;
+}
+
+div.cards h3 {
+    font-size: 16px;
+}
+
+.textDiv {
+    line-height: 1em;
+    color: #182A3C;
+}
+
+#map-contact {
+    background-color: #EAF0F9;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+#map {
+    width: 100%;
+}
+
+/* table weather sum */
+
+#weathersumtable {
+    background-color: rgba(66, 144, 92, 0.938);
+    padding: 10px;
+    color: #EAF0F9;
+    font-size: 16px;
+    position: relative;
+    margin: 18px;
+    margin-top: 50px;
+}
+
+#tablehead {
+    font-size: 18px;
+}
+
+.columnone {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.columntwo {
+    color: #CD9737;
+}
+
+/* table five day forcast */
+
+#fivedayforcast {
+    background-color: #EAF0F9;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px;
+    align-items: center;
+    margin-top: 70px;
+}
+
+#fiveforcasttable {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#icon0, #icon1, #icon2, #icon3, #icon4 {
+    height: 60px;
+}
+
+/* upcoming events */
+
+#upcoming-events {
+    background-color: #EAF0F9;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+/* article */
+
+#article {
+    background-color: #EAF0F9;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+#park {
+    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#lake {
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#articleauthor {
+    font-size: 14px;
+    color: #182A3C;
+}
+
+p {
+    color: #182A3C;
+}
+/* map and contact info */
+
+#map-contact {
+    background-color: #EAF0F9;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+#map {
+    width: 100%;
+}
+
+/* pancake message */
+
+#friday {
+    display: none;
+    background-color: #D9B359;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
 /* footer  */
 
 footer {
