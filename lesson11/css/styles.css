@@ -431,10 +431,6 @@ footer {
   #gallery-main {
     max-width: 600px; }
 
-  #gallery-title {
-    padding: 40px;
-    font-size: 36px; }
-
   #gallery {
     display: grid;
     grid-template-columns: 1fr 1fr; } }
@@ -553,10 +549,6 @@ footer {
 
   #gallery {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; }
-
-  #gallery-title {
-    padding: 40px;
-    font-size: 36px; } }
+    grid-template-columns: 1fr 1fr 1fr; } }
 
 /*# sourceMappingURL=styles.css.map */
