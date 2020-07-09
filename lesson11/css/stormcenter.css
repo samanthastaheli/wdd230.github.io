@@ -7,7 +7,7 @@
     text-align: center;
     font-size: 18px;
     font-family: 'Playfair-Display', serif;
-    color: #CD9737;
+    color: #EAF0F9;
     margin: 0px;
     margin-bottom: 25px;
     line-height: .5rem;
@@ -39,6 +39,18 @@ form label.toplabel, form div {
 }
 
 form label.toplabel input, form label.toplabel select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: 10px;
+    color: #555;
+    width: 94%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+textarea {
     display: block;
     font-size: 1rem;
     border: solid 1px #999;
