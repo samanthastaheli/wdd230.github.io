@@ -225,7 +225,7 @@ p {
 figure {
   background-color: #EAF0F9; }
 
-img {
+.gallery-img {
   height: 180px;
   justify-items: center;
   padding: 15px;
